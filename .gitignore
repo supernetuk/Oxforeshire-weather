@@ -1,0 +1,26 @@
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.dev.vars
+
+# Dependencies and builds
+node_modules/
+vendor/
+dist/
+build/
+.wrangler/
+__pycache__/
+*.pyc
+.venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
